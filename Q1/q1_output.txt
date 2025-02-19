@@ -1,0 +1,45 @@
+Time : Wed Feb 19 16:57:07 IST 2025
+
+USER DETAILS :
+root:x:0:0:root:/root:/bin/bash
+
+REPO : /root/Linux_Course_Work
+
+BRANCH : question_1
+
+VERSIONID : 24.04
+
+----------------------------------------
+
+Repository Files (Recursive List):
+/root/Linux_Course_Work:
+CODE
+DATA
+DOWNLOADS
+Q1
+
+/root/Linux_Course_Work/CODE:
+plant.py
+py1.py
+
+/root/Linux_Course_Work/DATA:
+FIle_1.txt
+File_2.txt
+img1.jpg
+img2.jpg
+img3.jpg
+
+/root/Linux_Course_Work/DOWNLOADS:
+LINUX_COURSE_WORK-downloads
+
+/root/Linux_Course_Work/DOWNLOADS/LINUX_COURSE_WORK-downloads:
+FIle_1.txt
+File_2.txt
+img1.jpg
+img2.jpg
+img3.jpg
+plant.py
+plants.csv
+py1.py
+
+/root/Linux_Course_Work/Q1:
