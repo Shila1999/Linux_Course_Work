@@ -22,3 +22,12 @@
    22  python py1.py > q2_output.txt
    23  python3 py1.py >> q2_output.txt
    24  history > q2_history.txt
+   25  git add .
+   26  git commit -m "Q2 and q2_history.txt"
+   27  git checkout master
+   28  git merge question_2
+   29  git push origin master
+   30  git checkout question_2
+   31  git push origin question_2
+   32  deactivate
+   33  history > q2_history.txt
