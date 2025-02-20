@@ -1,0 +1,24 @@
+    1  git checkout master
+    2  git checkout -b question_2
+    3  git checkout question_2
+    4  cd ~
+    5  mkdir Q2_ENV
+    6  cd Q2_ENV/
+    7  sudo apt update
+    8  python3 -m venv venv
+    9  source venv/bin/activate
+   10  pip install numpy
+   11  cd ..
+   12  cd Linux_Course_Work/
+   13  git checkout question_2
+   14  mkdir Q2
+   15  cp CODE/py1.py Q2/
+   16  cd Q2
+   17  chmod u+rx Q2/py1.py
+   18  chmod u+rx py1.py
+   19  python3 py1.py > q2_output.txt
+   20  pip freeze > requirements.txt
+   21  pip install -r requirements.txt
+   22  python py1.py > q2_output.txt
+   23  python3 py1.py >> q2_output.txt
+   24  history > q2_history.txt
