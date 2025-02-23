@@ -1,0 +1,26 @@
+* 01f885e (HEAD -> question_3, origin/question_3) Added q3_terminal_history.txt to track all executed commands
+* f18a4d8 (origin/br_3#q3, br_3#q3) Updated commit log
+* cd17edf BugID:456 DateTime:2025-02-23 11:44:38 Branch:br_3#q3 Dev:Shira Priority:1 Desc:"Optimize database queries" DevDesc:Optimized database queries
+*   779defb Merge branch 'br_2#q3' into br_3#q3
+|\  
+| * 1c16cbc (br_2#q3) Updated commit log before switching branches
+| * ea9032c (origin/br_2#q3) BugID:345 DateTime:2025-02-23 11:39:02 Branch:br_2#q3 Dev:Einar Priority:2 Desc:"Fix authentication issue" DevDesc:Fixed authentication issue
+| *   49ed9ae Merge branch 'br_1#q3' into br_2#q3
+| |\  
+| | * bac3901 (br_1#q3) Updated commit log before switching branches
+| | * 139f7ee (origin/br_1#q3) BugID:234 DateTime:2025-02-20 15:57:41 Branch:br_1#q3 Dev:Yair Priority:3 Desc:"File name should contain date in header" DevDesc:Implemented date check in filename
+| | * 5cb20fb Initial commit for br_1#q3
+| * | d071b9b Initial commit for br_2
+| |/  
+* / 055c65c Initial commit for br_3#q3
+|/  
+| * 48cf296 (origin/question_2, question_2) fixing mistake from q1 - moving commits file to Q1
+| * 8fb3a36 Update q2_history.txt with latest command history
+|/  
+* 2740bbc (origin/master, master) Q2 and q2_history.txt
+* f747b95 Added commit history to git_commits.log
+| * a3973aa (origin/question_1, question_1) Add history_q1.txt on question_1 branch
+|/  
+* 57b3ce3 Created q1_output.txt for question_1
+* 2473880 DOWNLOADS directory commit
+* f6840c0 START
