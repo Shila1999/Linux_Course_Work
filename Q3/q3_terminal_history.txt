@@ -1,0 +1,75 @@
+    1  git checkout -b question_3
+    2  git branch
+    3  mkdir Q3
+    4  cd Q3
+    5  cat <<EOF > tasks.csv
+BugID,Description,Branch,Developer,Priority,RepoPath,GitHubURL
+234,"File name should contain date in header",br_1,Yair,3,./REPO1,...
+345,"Fix authentication issue",br_2,Einar,2,./REPO2,...
+456,"Optimize database queries",br_3,Shira,1,./REPO3,...
+EOF
+
+    6  git checkout -b "br_1#q3"
+    7  git checkout -b "br_2#q3"
+    8  git checkout -b "br_3#q3"
+    9  git checkout br_1#q3
+   10  echo "Bug fix for br_1#q3" > bugfix1.txt
+   11  git add bugfix1.txt
+   12  git commit -m "Initial commit for br_1#q3"
+   13  git checkout br_2#q3
+   14  echo "Bug fix for br_2#q3" > bugfix2.txt
+   15  git add bugfix2.txt
+   16  git commit -m "Initial commit for br_2"
+   17  git checkout br_3#q3
+   18  echo "Bug fix for br_3#q3" > bugfix3.txt
+   19  git add bugfix3.txt
+   20  git commit -m "Initial commit for br_3#q3"
+   21  nano commit.sh
+   22  git checkout question_3
+   23  nano commit.sh
+   24  nano --version
+   25  sudo nano commit.sh
+   26  rm .commit.sh.swp
+   27  nano commit.sh
+   28  rm Q3/.commit.sh.swp
+   29  find ~/Linux_Course_Work -name "*.swp"
+   30  sudo nano commit.sh
+   31  chmod +x commit.sh
+   32  git checkout br_1#q3
+   33  echo "Fixed issue in br_1#q3" >> bugfix1.txt
+   34  ../commit.sh "Implemented date check in filename"
+   35  ./commit.sh "Implemented date check in filename"
+   36  cat <<EOF > tasks.csv
+BugID,Description,Branch,Developer,Priority,RepoPath,GitHubURL
+234,"File name should contain date in header",br_1#q3,Yair,3,./REPO1,...
+345,"Fix authentication issue",br_2#q3,Einar,2,./REPO2,...
+456,"Optimize database queries",br_3#q3,Shira,1,./REPO3,...
+EOF
+
+   37  ./commit.sh "Implemented date check in filename"
+   38  git checkout br_2#q3
+   39  git add commit_log.txt
+   40  git commit -m "Updated commit log before switching branches"
+   41  git checkout br_2#q3
+   42  echo "Fixed issue in br_2#q3" >> bugfix2.txt
+   43  ./commit.sh "Fixed authentication issue"
+   44  git merge br_1#q3
+   45  chmod +x commit.sh
+   46  ./commit.sh "Fixed authentication issue"
+   47  git checkout br_3#q3
+   48  git add commit_log.txt
+   49  git commit -m "Updated commit log before switching branches"
+   50  git checkout br_3#q3
+   51  git merge br_2#q3
+   52  echo "Fixed issue in br_3#q3" >> bugfix3.txt
+   53  ./commit.sh "Optimized database queries"
+   54  git push origin br_3#q3
+   55  git add .
+   56  git commit -m "Updated commit log"
+   57  git push origin br_3#q3
+   58  git checkout question_3
+   59  git add .
+   60  git commit -m "Finalizing question_3 branch with Q3 directory"
+   61  git branch
+   62  git merge br_3#q3
+   63  history > q3_terminal_history.txt
