@@ -1,0 +1,17 @@
+2025-02-25 16:57:30 - An active virtual environment is detected: /root/Q2_ENV/venv
+2025-02-25 16:57:30 - Checking and installing required Python packages...
+2025-02-25 16:57:30 - Package 'matplotlib' is already installed.
+2025-02-25 16:57:30 - Reading CSV file: flower_data.csv
+2025-02-25 16:57:30 - Running: python3 improved_plant.py --plant "Orchid" --height "45 48 55 63" --leaf_count "30 31 38 45" --dry_weight "1.8 2.0 2.3 2.6"
+2025-02-25 16:57:32 - SUCCESS: Processing for Orchid completed successfully.
+2025-02-25 16:57:32 - Images saved in ./Orchid/
+2025-02-25 16:57:32 - Running: python3 improved_plant.py --plant "Daisy" --height "25 31 35 39" --leaf_count "10 15 20 25" --dry_weight "0.9 1.4 1.5 1.8"
+2025-02-25 16:57:33 - SUCCESS: Processing for Daisy completed successfully.
+2025-02-25 16:57:33 - Images saved in ./Daisy/
+2025-02-25 16:57:33 - Running: python3 improved_plant.py --plant "Lavender" --height "100 104 110 113" --leaf_count "45 50 55 60" --dry_weight "4.5 5.0 5.5 6.0"
+2025-02-25 16:57:34 - SUCCESS: Processing for Lavender completed successfully.
+2025-02-25 16:57:34 - Images saved in ./Lavender/
+2025-02-25 16:57:34 - Running: python3 improved_plant.py --plant "Marigold" --height "35 40 45 50" --leaf_count "18 22 26 30" --dry_weight "1.2 1.5 1.8 2.1"
+2025-02-25 16:57:35 - SUCCESS: Processing for Marigold completed successfully.
+2025-02-25 16:57:35 - Images saved in ./Marigold/
+2025-02-25 16:57:35 - Keeping the existing virtual environment active.
