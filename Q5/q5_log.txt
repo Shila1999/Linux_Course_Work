@@ -1,0 +1,83 @@
+2025-03-04 13:35:26 - ERROR: No CSV file found!
+2025-03-04 13:45:21 - Created new CSV file: q_5_csv_1.csv
+2025-03-04 13:48:54 - Created new CSV file: q_5_file_1.csv
+2025-03-04 13:52:49 - Added row: 10/01/2024, SR, F, 60
+2025-03-04 13:53:25 - Added row: 12/01/2024, YV, M, 67
+2025-03-04 13:53:56 - Added row: 14/01/2024, YR, F, 50
+2025-03-04 13:54:25 - Added row: 02/02/2024, HH, M, 75
+2025-03-04 13:55:21 - Filtered by species: 7
+2025-03-04 13:55:31 - ERROR: Invalid row index!
+2025-03-04 13:55:46 - Deleted row 1 from CSV
+2025-03-04 13:55:54 - Deleted row 2 from CSV
+2025-03-04 13:56:04 - Deleted row 3 from CSV
+2025-03-04 13:56:15 - Deleted row 2 from CSV
+2025-03-04 13:56:35 - Deleted row 2 from CSV
+2025-03-04 13:57:35 - Added row: 1/8, PF, M, 7
+2025-03-04 13:57:56 - Added row: 2/8, OT, M, 24
+2025-03-04 13:58:13 - Added row: 2/19, OT, F, 23
+2025-03-04 13:58:39 - Added row: 3/11, NA, M, 232
+2025-03-04 13:58:57 - Added row: 3/11, OT, F, 22
+2025-03-04 13:59:17 - Added row: 3/11, PF, M, 26
+2025-03-04 13:59:36 - Added row: 4/8, NA, F, 8
+2025-03-04 14:00:03 - Displayed CSV data with row index.
+2025-03-04 14:00:44 - Filtered by species: OT
+2025-03-04 14:00:55 - Filtered by sex: F
+2025-03-04 14:01:24 - Saved last output to file: new_csv_option_6.csv
+2025-03-04 14:01:52 - Updated weight in row 2 to 24
+2025-03-04 14:04:11 - Added row: 3.12, OT, M, 45
+2025-03-04 14:04:26 - Displayed CSV data with row index.
+2025-03-04 14:04:39 - Filtered by species: OT
+2025-03-04 14:04:42 - Displayed CSV data with row index.
+2025-03-04 14:04:52 - Filtered by species: OT
+2025-03-04 14:05:03 - Filtered by sex: M
+2025-03-04 14:05:25 - Filtered by species: NA
+2025-03-04 14:05:32 - Filtered by species: NA
+2025-03-04 14:05:38 - Filtered by species: OT
+2025-03-04 14:05:41 - Displayed CSV data with row index.
+2025-03-04 14:05:43 - Displayed CSV data with row index.
+2025-03-04 14:05:58 - Filtered by species: NA
+2025-03-04 14:06:05 - Filtered by species: OT
+2025-03-04 14:09:46 - Created new CSV file: q_5_file_2.csv
+2025-03-04 14:10:04 - Added row: 2/4, OS, M, 45
+2025-03-04 14:10:15 - Added row: 5/5, OS, F, 40
+2025-03-04 14:10:34 - Added row: 6/5, OT, M, 48
+2025-03-04 14:10:58 - ERROR: Invalid input. Please enter correct values.
+2025-03-04 14:11:20 - Added row: 8/5, NA, M, 300
+2025-03-04 14:16:06 - Updated weight in row 4 to 53
+2025-03-04 14:16:11 - Displayed CSV data with row index.
+2025-03-04 14:16:16 - Displayed CSV data with row index.
+2025-03-04 14:16:34 - Displayed CSV data with row index.
+2025-03-04 14:16:58 - Displayed CSV data with row index.
+2025-03-04 14:17:12 - Created new CSV file: q_5_file_1.csv
+2025-03-04 14:17:12 - Displayed CSV data with row index.
+2025-03-04 14:18:17 - Added row: 1/8, OT, M, 24
+2025-03-04 14:19:15 - Added row: 2/8, OT, F, 23
+2025-03-04 14:19:38 - Added row: 3/11, NA, M, 232
+2025-03-04 14:20:01 - ERROR: Invalid input. Please enter correct values.
+2025-03-04 14:20:12 - Added row: 3/11, OT, F, 26
+2025-03-04 14:20:33 - Filtered by species: OT
+2025-03-04 14:20:56 - Filtered by species: NA
+2025-03-04 14:21:20 - Displayed CSV data with row index.
+2025-03-04 14:21:40 - Filtered by species: NA
+2025-03-04 14:31:13 - Exited the program.
+2025-03-04 14:38:27 - Created new CSV file: q_5_file_1.csv
+2025-03-04 14:38:45 - Added row: 1/8, OT, M, 34
+2025-03-04 14:38:56 - Added row: 2/8, NA, F, 230
+2025-03-04 14:39:20 - Added row: 3/8, NA, M, 340
+2025-03-04 14:39:30 - Added row: OT, F, F, 44
+2025-03-04 14:39:50 - Added row: 4/8, OT, F, 22
+2025-03-04 14:39:54 - Displayed CSV data with row index.
+2025-03-04 14:40:02 - Filtered by species: NA
+2025-03-04 14:40:10 - Displayed CSV data with row index.
+2025-03-04 14:40:16 - Displayed CSV data with row index.
+2025-03-04 14:40:42 - Updated weight in row 4 to 33
+2025-03-04 14:40:44 - Displayed CSV data with row index.
+2025-03-04 14:40:49 - Filtered by species: OT
+2025-03-04 14:41:09 - Created new CSV file: q_5_file_2.csv
+2025-03-04 14:41:19 - Added row: 3/11, NA, M, 330
+2025-03-04 14:41:34 - Added row: 4/11, OT, F, 21
+2025-03-04 14:41:49 - Added row: 5/11, NA, F, 220
+2025-03-04 14:41:53 - Displayed CSV data with row index.
+2025-03-04 14:42:10 - Filtered by sex: M
+2025-03-04 14:42:16 - Filtered by species: NA
+2025-03-04 14:42:59 - Exited the program.
