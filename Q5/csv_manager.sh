@@ -1,8 +1,9 @@
 #!/bin/bash
 
+CSV_DIR="/app/output"  # Ensure all files are stored in /app/output
+LOG_FILE="$CSV_DIR/q5_log.txt"
+OUTPUT_FILE="$CSV_DIR/q5_output.txt"
 CSV_FILE=""
-LOG_FILE="q5_log.txt"
-OUTPUT_FILE="q5_output.txt"
 
 # Function to log actions
 log_action() {
@@ -14,10 +15,13 @@ append_output() {
     echo -e "$(date +'%Y-%m-%d %H:%M:%S') - $1" | tee -a "$OUTPUT_FILE"
 }
 
+# Ensure output directory exists
+mkdir -p "$CSV_DIR"
+
 # Function to create a new CSV file
 create_csv() {
     read -p "Enter the name of the CSV file (without extension): " filename
-    CSV_FILE="${filename}.csv"
+    CSV_FILE="$CSV_DIR/${filename}.csv"  # Save CSV inside /app/output
     echo "Date collected,Species,Sex,Weight" > "$CSV_FILE"
     log_action "Created new CSV file: $CSV_FILE"
 }
@@ -89,8 +93,8 @@ filter_sex() {
 # Function to save last output to new CSV file
 save_output() {
     read -p "Enter name for new CSV file (without extension): " output_csv
-    cp "$OUTPUT_FILE" "${output_csv}.csv"
-    log_action "Saved last output to file: ${output_csv}.csv"
+    cp "$OUTPUT_FILE" "$CSV_DIR/${output_csv}.csv"
+    log_action "Saved last output to file: $CSV_DIR/${output_csv}.csv"
 }
 
 # Function to delete row by index
@@ -104,7 +108,7 @@ delete_row() {
         log_action "ERROR: Invalid row index!"
         return
     fi
-    awk -v del="$row" 'NR!=del+1' "$CSV_FILE" > temp.csv && mv temp.csv "$CSV_FILE"
+    awk -v del="$row" 'NR!=del+1' "$CSV_FILE" > "$CSV_DIR/temp.csv" && mv "$CSV_DIR/temp.csv" "$CSV_FILE"
     log_action "Deleted row $row from CSV"
 }
 
@@ -120,7 +124,7 @@ update_weight() {
         log_action "ERROR: Invalid input!"
         return
     fi
-    awk -F, -v rownum="$row" -v new_w="$new_weight" 'NR==1 {print; next} NR==rownum+1 {$4=new_w} {print}' OFS=, "$CSV_FILE" > temp.csv && mv temp.csv "$CSV_FILE"
+    awk -F, -v rownum="$row" -v new_w="$new_weight" 'NR==1 {print; next} NR==rownum+1 {$4=new_w} {print}' OFS=, "$CSV_FILE" > "$CSV_DIR/temp.csv" && mv "$CSV_DIR/temp.csv" "$CSV_FILE"
     log_action "Updated weight in row $row to $new_weight"
 }
 

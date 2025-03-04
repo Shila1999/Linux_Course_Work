@@ -1,0 +1,11 @@
+FROM ubuntu:latest
+
+WORKDIR /app
+
+COPY csv_manager.sh /app/
+
+RUN apt-get update && apt-get install -y bash
+
+RUN chmod +x /app/csv_manager.sh
+
+CMD ["/bin/bash", "/app/csv_manager.sh"]

@@ -1,0 +1,8 @@
+2025-03-04 14:04:31 - Exited the program.
+2025-03-04 14:04:43 - Exited the program.
+2025-03-04 14:06:53 - Created new CSV file: /app/output/q_5_file_1.csv
+2025-03-04 14:07:08 - Created new CSV file: /app/output/q_5_file_3.csv
+2025-03-04 14:07:22 - Added row: 1/5, OT, M, 34
+2025-03-04 14:07:37 - Added row: 2/4, OT, F, 30
+2025-03-04 14:07:48 - Added row: 6/7, NA, M, 401
+2025-03-04 14:08:26 - Exited the program.

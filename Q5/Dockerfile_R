@@ -1,0 +1,16 @@
+FROM r-base:latest
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Copy the CSV file from the shared directory (created by Bash script)
+COPY shared/*.csv /app/data.csv
+
+# Copy the R script into the container
+COPY analysis.R /app/
+
+# Install required R packages
+RUN R -e "install.packages(c('dplyr', 'ggplot2'))"
+
+# Run the R script and save output
+CMD ["Rscript", "/app/analysis.R"]
