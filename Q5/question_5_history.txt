@@ -1,0 +1,12 @@
+    1  cd ..
+    2  git checkout -b question_5
+    3  git branch
+    4  mkdir Q5
+    5  cd Q5
+    6  nano csv_manager.sh
+    7  touch csv_manager.sh
+    8  chmod +x csv_manager.sh
+    9  ./csv_manager.sh
+   10  git add .
+   11  git commit -m "commit Q5"
+   12  history > question_5_history.txt
